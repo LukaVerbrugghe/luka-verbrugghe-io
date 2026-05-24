@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luka Verbrugghe | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <h1 data-i18n="name">Luka Verbrugghe</h1>
+        <p data-i18n="subtitle">Student Applied Computer Sciences at Howest University of Applied Sciences</p>
+      </div>
+      <div class="controls">
+        <div class="toggle-group" role="group" aria-label="Language switcher">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="nl">NL</button>
+        </div>
+        <button id="theme-toggle" type="button" aria-label="Toggle color theme">☀️</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="card" aria-labelledby="resume-heading">
+        <h2 id="resume-heading" data-i18n="resumeTitle">Resume</h2>
+        <p data-i18n="resumeIntro">Motivated student with a passion for software development and problem solving.</p>
+        <ul>
+          <li data-i18n="resumeStudy">Applied Computer Sciences — Howest University of Applied Sciences</li>
+          <li data-i18n="resumeFocus">Focus: web development, APIs, and clean software architecture</li>
+          <li data-i18n="resumeGoal">Goal: build reliable software with a great user experience</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="projects-heading">
+        <h2 id="projects-heading" data-i18n="projectsTitle">Projects</h2>
+        <div class="project-list">
+          <article>
+            <h3 data-i18n="projectOneTitle">Student project: Task tracker</h3>
+            <p data-i18n="projectOneDesc">A simple full-stack app to manage tasks and deadlines.</p>
+          </article>
+          <article>
+            <h3 data-i18n="projectTwoTitle">Student project: API integration</h3>
+            <p data-i18n="projectTwoDesc">A web app that combines data from multiple public APIs.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <small data-i18n="footer">Built by Luka Verbrugghe.</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
