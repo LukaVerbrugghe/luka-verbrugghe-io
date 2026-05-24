@@ -4,30 +4,34 @@ const translations = {
     subtitle: 'Student Applied Computer Sciences at Howest University of Applied Sciences',
     resumeTitle: 'Resume',
     resumeIntro: 'Motivated student with a passion for software development and problem solving.',
-    resumeStudy: 'Applied Computer Sciences — Howest University of Applied Sciences',
-    resumeFocus: 'Focus: web development, APIs, and clean software architecture',
+    resumeStudy: 'Applied Computer Sciences at Howest University of Applied Sciences',
+    resumeFocus: 'Focus: Software architecture and engineering',
     resumeGoal: 'Goal: build reliable software with a great user experience',
     projectsTitle: 'Projects',
-    projectOneTitle: 'Student project: Task tracker',
-    projectOneDesc: 'A simple full-stack app to manage tasks and deadlines.',
-    projectTwoTitle: 'Student project: API integration',
-    projectTwoDesc: 'A web app that combines data from multiple public APIs.',
-    footer: 'Built by Luka Verbrugghe.'
+    projectOneTitle: 'Student project: Fitness tracker',
+    projectOneDesc: 'A .NET MAUI multi-platform application with user authentication and databases.',
+    projectTwoTitle: 'Professional project: Property Valuation Software for Real Estate Agent',
+    projectTwoDesc: 'A desktop app to help estimate property value and simplify document creation.',
+    projectTodoTitle: 'Work in progress',
+    projectTodoDesc: 'Hang on tight! I\'m working hard on the next projects.',
+    footer: 'Made with ♥ by Luka Verbrugghe.'
   },
   nl: {
     name: 'Luka Verbrugghe',
     subtitle: 'Student Toegepaste Informatica aan Howest Hogeschool',
     resumeTitle: 'CV',
     resumeIntro: 'Gemotiveerde student met een passie voor softwareontwikkeling en probleemoplossing.',
-    resumeStudy: 'Toegepaste Informatica — Howest Hogeschool',
-    resumeFocus: 'Focus: webontwikkeling, APIs en duidelijke softwarearchitectuur',
+    resumeStudy: 'Toegepaste Informatica aan Howest Hogeschool',
+    resumeFocus: 'Focus: software architecture en engineering',
     resumeGoal: 'Doel: betrouwbare software bouwen met een sterke gebruikservaring',
     projectsTitle: "Projecten",
-    projectOneTitle: 'Studentenproject: Taakbeheerder',
-    projectOneDesc: "Een eenvoudige full-stack app om taken en deadlines te beheren.",
-    projectTwoTitle: 'Studentenproject: API-integratie',
-    projectTwoDesc: "Een webapp die data combineert uit meerdere publieke APIs.",
-    footer: 'Gemaakt door Luka Verbrugghe.'
+    projectOneTitle: 'Studentenproject: Fitnesstracker',
+    projectOneDesc: "Een .NET MAUI multi-platform app met gebruikersauthenticatie en databases.",
+    projectTwoTitle: 'Professioneel project: Software voor waardebepaling van panden voor een makelaar ',
+    projectTwoDesc: "Een desktop app die helpt de waarde van panden te schatten en het maken van documenten vergemakkelijkt.",
+    projectTodoTitle: 'Work in progress',
+    projectTodoDesc: 'Nog eventjes geduld! Ik ben volop bezig aan de volgende projecten.',
+    footer: 'Made with ♥ by Luka Verbrugghe.'
   }
 };
 
